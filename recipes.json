@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Banana bread",
+        "healthy": true,
+        "portions": 8,
+        "preparationTime": "30 minutes",
+        "cookingTime": "45 minutes",
+        "calories": 1353,
+        "caloriesByPortions": 169,
+        "ingredients": [
+            {
+                "id": 1,
+                "libelle": "3 bananes bien mûres"
+            },
+            {
+                "id": 2,
+                "libelle": "2 œufs"
+            },
+            {
+                "id": 3,
+                "libelle": "120 g de farine complète"
+            },
+            {
+                "id": 4,
+                "libelle": "50 g de farine d’avoine"
+            },
+            {
+                "id": 5,
+                "libelle": "2 c. à soupe d’huile de coco fondue"
+            },
+            {
+                "id": 6,
+                "libelle": "1 c. à soupe de miel ou sirop d’érable"
+            },
+            {
+                "id": 7,
+                "libelle": "1 c. à café de levure chimique"
+            },
+            {
+                "id": 8,
+                "libelle": "2 c. à café de cannelle"
+            },
+            {
+                "id": 9,
+                "libelle": "1 pincée de sel"
+            },
+            {
+                "id": 10,
+                "libelle": "Un bouchon de rhum"
+            }
+        ],
+        "instructions": [
+            {
+                "id": 1,
+                "libelle": "Préchauffez le four à 180°C"
+            },
+            {
+                "id": 2,
+                "libelle": "Mixer les bananes et les œufs"
+            },
+            {
+                "id": 3,
+                "libelle": "Mélanger les bananes et les œufs avec l’huile de coco fondue et le miel"
+            },
+            {
+                "id": 4,
+                "libelle": "Dans un autre bol, mélangez les ingrédients secs (farines, levure, cannelle et sel)"
+            },
+            {
+                "id": 5,
+                "libelle": "Ajoutez progressivement les ingrédients secs aux ingrédients humides, tout en mélangeant doucement"
+            },
+            {
+                "id": 6,
+                "libelle": "Ajoutez le bouchon de rhum"
+            },
+            {
+                "id": 7,
+                "libelle": "Versez la pâte dans un moule à cake"
+            },
+            {
+                "id": 8,
+                "libelle": "Enfournez pendant 45 minutes, jusqu’à ce que la lame d’un couteau insérée au centre ressorte propre"
+            },
+            {
+                "id": 9,
+                "libelle": "Laissez refroidir avant de démouler"
+            }
+        ],
+        "timers": [
+            {
+                "instructionId": 7,
+                "time": 45,
+                "unit": "minutes"
+            }
+        ]
+    }
+]
