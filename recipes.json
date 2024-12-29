@@ -1,6 +1,7 @@
 [
     {
         "title": "Banana bread test",
+        "taste": "sweet",
         "healthy": true,
         "portions": 8,
         "preparationTime": "30 minutes",
