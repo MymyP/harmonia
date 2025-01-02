@@ -53,39 +53,48 @@
         "instructions": [
             {
                 "id": 1,
-                "libelle": "Préchauffez le four à 180°C"
+                "libelle": "Préchauffez le four à 180°C",
+                "ingredientsId": []
             },
             {
                 "id": 2,
-                "libelle": "Mixer les bananes et les œufs"
+                "libelle": "Mixer les bananes et les œufs",
+                "ingredientsId": [1, 2]
             },
             {
                 "id": 3,
-                "libelle": "Mélanger les bananes et les œufs avec l’huile de coco fondue et le miel"
+                "libelle": "Mélanger les bananes et les œufs avec l’huile de coco fondue et le miel",
+                "ingredientsId": [1, 2, 5, 6]
             },
             {
                 "id": 4,
-                "libelle": "Dans un autre bol, mélangez les ingrédients secs (farines, levure, cannelle et sel)"
+                "libelle": "Dans un autre bol, mélangez les ingrédients secs (farines, levure, cannelle et sel)",
+                "ingredientsId": [3, 4, 7, 8, 9]
             },
             {
                 "id": 5,
-                "libelle": "Ajoutez progressivement les ingrédients secs aux ingrédients humides, tout en mélangeant doucement"
+                "libelle": "Ajoutez progressivement les ingrédients secs aux ingrédients humides, tout en mélangeant doucement",
+                "ingredientsId": [3, 4, 7, 8, 9]
             },
             {
                 "id": 6,
-                "libelle": "Ajoutez le bouchon de rhum"
+                "libelle": "Ajoutez le bouchon de rhum",
+                "ingredientsId": [10]
             },
             {
                 "id": 7,
-                "libelle": "Versez la pâte dans un moule à cake"
+                "libelle": "Versez la pâte dans un moule à cake",
+                "ingredientsId": []
             },
             {
                 "id": 8,
-                "libelle": "Enfournez pendant 45 minutes, jusqu’à ce que la lame d’un couteau insérée au centre ressorte propre"
+                "libelle": "Enfournez pendant 45 minutes, jusqu’à ce que la lame d’un couteau insérée au centre ressorte propre",
+                "ingredientsId": []
             },
             {
                 "id": 9,
-                "libelle": "Laissez refroidir avant de démouler"
+                "libelle": "Laissez refroidir avant de démouler",
+                "ingredientsId": []
             }
         ],
         "timers": [
