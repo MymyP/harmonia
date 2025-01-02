@@ -1,6 +1,7 @@
 [
     {
         "title": "Banana bread",
+        "imgFile": "banana-bread.png",
         "taste": "sweet",
         "healthy": true,
         "portions": 8,
@@ -107,6 +108,7 @@
     },
     {
         "title": "Poêlée de poulet aux légumes et quinoa",
+        "imgFile": "chicken-quinoa.png",
         "taste": "savory",
         "healthy": true,
         "portions": 4,
