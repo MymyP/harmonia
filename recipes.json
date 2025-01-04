@@ -10,100 +10,30 @@
         "calories": 1353,
         "caloriesByPortions": 169,
         "ingredients": [
-            {
-                "id": 1,
-                "libelle": "3 bananes bien mûres"
-            },
-            {
-                "id": 2,
-                "libelle": "2 œufs"
-            },
-            {
-                "id": 3,
-                "libelle": "120 g de farine complète"
-            },
-            {
-                "id": 4,
-                "libelle": "50 g de farine d’avoine"
-            },
-            {
-                "id": 5,
-                "libelle": "2 c. à soupe d’huile de coco fondue"
-            },
-            {
-                "id": 6,
-                "libelle": "1 c. à soupe de miel ou sirop d’érable"
-            },
-            {
-                "id": 7,
-                "libelle": "1 c. à café de levure chimique"
-            },
-            {
-                "id": 8,
-                "libelle": "2 c. à café de cannelle"
-            },
-            {
-                "id": 9,
-                "libelle": "1 pincée de sel"
-            },
-            {
-                "id": 10,
-                "libelle": "Un bouchon de rhum"
-            }
+            { "id": 1, "quantity": 3, "unit": "pièce" },
+            { "id": 2, "quantity": 2, "unit": "pièce" },
+            { "id": 3, "quantity": 120, "unit": "g" },
+            { "id": 4, "quantity": 50, "unit": "g" },
+            { "id": 5, "quantity": 2, "unit": "c. à soupe" },
+            { "id": 6, "quantity": 1, "unit": "c. à soupe" },
+            { "id": 7, "quantity": 1, "unit": "c. à café" },
+            { "id": 8, "quantity": 2, "unit": "c. à café" },
+            { "id": 9, "quantity": 1, "unit": "pincée" },
+            { "id": 10, "quantity": 1, "unit": "bouchon" }
         ],
         "instructions": [
-            {
-                "id": 1,
-                "libelle": "Préchauffez le four à 180°C",
-                "ingredientsId": []
-            },
-            {
-                "id": 2,
-                "libelle": "Mixer les bananes et les œufs",
-                "ingredientsId": [1, 2]
-            },
-            {
-                "id": 3,
-                "libelle": "Mélanger les bananes et les œufs avec l’huile de coco fondue et le miel",
-                "ingredientsId": [1, 2, 5, 6]
-            },
-            {
-                "id": 4,
-                "libelle": "Dans un autre bol, mélangez les ingrédients secs (farines, levure, cannelle et sel)",
-                "ingredientsId": [3, 4, 7, 8, 9]
-            },
-            {
-                "id": 5,
-                "libelle": "Ajoutez progressivement les ingrédients secs aux ingrédients humides, tout en mélangeant doucement",
-                "ingredientsId": [3, 4, 7, 8, 9]
-            },
-            {
-                "id": 6,
-                "libelle": "Ajoutez le bouchon de rhum",
-                "ingredientsId": [10]
-            },
-            {
-                "id": 7,
-                "libelle": "Versez la pâte dans un moule à cake",
-                "ingredientsId": []
-            },
-            {
-                "id": 8,
-                "libelle": "Enfournez pendant 45 minutes, jusqu’à ce que la lame d’un couteau insérée au centre ressorte propre",
-                "ingredientsId": []
-            },
-            {
-                "id": 9,
-                "libelle": "Laissez refroidir avant de démouler",
-                "ingredientsId": []
-            }
+            { "id": 1, "libelle": "Préchauffez le four à 180°C", "ingredientsId": [] },
+            { "id": 2, "libelle": "Mixer les bananes et les œufs", "ingredientsId": [1, 2] },
+            { "id": 3, "libelle": "Mélanger les bananes et les œufs avec l’huile de coco fondue et le miel", "ingredientsId": [1, 2, 5, 6] },
+            { "id": 4, "libelle": "Dans un autre bol, mélangez les ingrédients secs (farines, levure, cannelle et sel)", "ingredientsId": [3, 4, 7, 8, 9] },
+            { "id": 5, "libelle": "Ajoutez progressivement les ingrédients secs aux ingrédients humides, tout en mélangeant doucement", "ingredientsId": [3, 4, 7, 8, 9] },
+            { "id": 6, "libelle": "Ajoutez le bouchon de rhum", "ingredientsId": [10] },
+            { "id": 7, "libelle": "Versez la pâte dans un moule à cake", "ingredientsId": [] },
+            { "id": 8, "libelle": "Enfournez pendant 45 minutes, jusqu’à ce que la lame d’un couteau insérée au centre ressorte propre", "ingredientsId": [] },
+            { "id": 9, "libelle": "Laissez refroidir avant de démouler", "ingredientsId": [] }
         ],
         "timers": [
-            {
-                "instructionId": 7,
-                "time": 45,
-                "unit": "minutes"
-            }
+            { "instructionId": 8, "time": 45, "unit": "minutes" }
         ]
     },
     {
@@ -117,55 +47,26 @@
         "calories": 2320,
         "caloriesByPortions": 580,
         "ingredients": [
-            { "id": 1, "libelle": "600 g d’émincé de poulet" },
-            { "id": 2, "libelle": "2 courgettes, coupées en demi-lunes" },
-            { "id": 3, "libelle": "2 poivrons rouges, coupés en lamelles" },
-            { "id": 4, "libelle": "4 tomates, coupées en dés" },
-            { "id": 5, "libelle": "2 gousses d’ail, hachées" },
-            { "id": 6, "libelle": "2 cuillères à soupe d’huile d’olive" },
-            { "id": 7, "libelle": "2 cuillères à café de curcuma" },
-            { "id": 8, "libelle": "1 cuillère à café de paprika doux" },
-            { "id": 9, "libelle": "1 cuillère à café d’herbes de Provence ou d’origan" },
-            { "id": 10, "libelle": "Sel et poivre selon le goût" },
-            { "id": 11, "libelle": "240 g de quinoa (sec)" },
-            { "id": 12, "libelle": "480 ml d’eau ou de bouillon de légumes faible en sodium" }
+            { "id": 11, "quantity": 600, "unit": "g" },
+            { "id": 12, "quantity": 2, "unit": "pièce" },
+            { "id": 13, "quantity": 2, "unit": "pièce" },
+            { "id": 14, "quantity": 4, "unit": "pièce" },
+            { "id": 15, "quantity": 2, "unit": "gousse" },
+            { "id": 16, "quantity": 2, "unit": "c. à soupe" },
+            { "id": 17, "quantity": 2, "unit": "c. à café" },
+            { "id": 18, "quantity": 1, "unit": "c. à café" },
+            { "id": 19, "quantity": 1, "unit": "c. à café" },
+            { "id": 20, "quantity": 240, "unit": "g" },
+            { "id": 21, "quantity": 480, "unit": "ml" }
         ],
         "instructions": [
-            {
-                "id": 1,
-                "libelle": "Rincez le quinoa sous l’eau claire.",
-                "ingredientsId": [11]
-            },
-            {
-                "id": 2,
-                "libelle": "Dans une casserole, portez l’eau ou le bouillon à ébullition. Ajoutez le quinoa, couvrez et laissez mijoter à feu doux pendant 12-15 minutes, jusqu’à ce que l’eau soit absorbée. Retirez du feu et laissez reposer.",
-                "ingredientsId": [11, 12]
-            },
-            {
-                "id": 3,
-                "libelle": "Chauffez 2 cuillères à soupe d’huile d’olive dans une grande poêle ou un wok.",
-                "ingredientsId": [6]
-            },
-            {
-                "id": 4,
-                "libelle": "Faites revenir l’émincé de poulet à feu moyen pendant 5-7 minutes, jusqu’à ce qu’il soit bien doré. Retirez et réservez.",
-                "ingredientsId": [1]
-            },
-            {
-                "id": 5,
-                "libelle": "Ajoutez l’ail et les légumes (courgettes, poivrons) dans la même poêle. Faites revenir à feu moyen-vif pendant environ 5 minutes.",
-                "ingredientsId": [2, 3, 5]
-            },
-            {
-                "id": 6,
-                "libelle": "Incorporez les tomates, les épices (curcuma, paprika, herbes), le sel et le poivre. Mélangez bien.",
-                "ingredientsId": [4, 7, 8, 9, 10]
-            },
-            {
-                "id": 7,
-                "libelle": "Remettez le poulet dans la poêle et laissez mijoter 5 minutes supplémentaires pour que les saveurs se mélangent.",
-                "ingredientsId": [1]
-            }
+            { "id": 1, "libelle": "Rincez le quinoa sous l’eau claire.", "ingredientsId": [20] },
+            { "id": 2, "libelle": "Dans une casserole, portez l’eau ou le bouillon à ébullition. Ajoutez le quinoa, couvrez et laissez mijoter à feu doux pendant 12-15 minutes, jusqu’à ce que l’eau soit absorbée. Retirez du feu et laissez reposer.", "ingredientsId": [20, 21] },
+            { "id": 3, "libelle": "Chauffez 2 cuillères à soupe d’huile d’olive dans une grande poêle ou un wok.", "ingredientsId": [16] },
+            { "id": 4, "libelle": "Faites revenir l’émincé de poulet à feu moyen pendant 5-7 minutes, jusqu’à ce qu’il soit bien doré. Retirez et réservez.", "ingredientsId": [11] },
+            { "id": 5, "libelle": "Ajoutez l’ail et les légumes (courgettes, poivrons) dans la même poêle. Faites revenir à feu moyen-vif pendant environ 5 minutes.", "ingredientsId": [12, 13, 15] },
+            { "id": 6, "libelle": "Incorporez les tomates, les épices (curcuma, paprika, herbes), le sel et le poivre. Mélangez bien.", "ingredientsId": [14, 17, 18, 19] },
+            { "id": 7, "libelle": "Remettez le poulet dans la poêle et laissez mijoter 5 minutes supplémentaires pour que les saveurs se mélangent.", "ingredientsId": [11] }
         ],
         "timers": [
             { "instructionId": 2, "time": 15, "unit": "minutes" },

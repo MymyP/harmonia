@@ -1,0 +1,23 @@
+[
+    { "id": 1, "name": "banane" },
+    { "id": 2, "name": "œuf" },
+    { "id": 3, "name": "farine complète" },
+    { "id": 4, "name": "farine d’avoine" },
+    { "id": 5, "name": "huile de coco" },
+    { "id": 6, "name": "miel" },
+    { "id": 7, "name": "levure chimique" },
+    { "id": 8, "name": "cannelle" },
+    { "id": 9, "name": "sel" },
+    { "id": 10, "name": "rhum" },
+    { "id": 11, "name": "émincé de poulet" },
+    { "id": 12, "name": "courgette" },
+    { "id": 13, "name": "poivron rouge" },
+    { "id": 14, "name": "tomate" },
+    { "id": 15, "name": "ail" },
+    { "id": 16, "name": "huile d’olive" },
+    { "id": 17, "name": "curcuma" },
+    { "id": 18, "name": "paprika doux" },
+    { "id": 19, "name": "herbes de Provence" },
+    { "id": 20, "name": "quinoa" },
+    { "id": 21, "name": "bouillon de légumes" }
+]
