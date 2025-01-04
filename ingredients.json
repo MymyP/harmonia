@@ -19,5 +19,11 @@
     { "id": 18, "name": "paprika doux" },
     { "id": 19, "name": "herbes de Provence" },
     { "id": 20, "name": "quinoa" },
-    { "id": 21, "name": "bouillon de légumes" }
+    { "id": 21, "name": "bouillon de légumes" },
+    { "id": 22, "name": "oignon jaune" },
+    { "id": 23, "name": "carotte" },
+    { "id": 24, "name": "tomates concassées" },
+    { "id": 25, "name": "haricots rouges" },
+    { "id": 26, "name": "cumin moulu" },
+    { "id": 27, "name": "poivre" }
 ]

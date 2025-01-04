@@ -73,5 +73,47 @@
             { "instructionId": 4, "time": 7, "unit": "minutes" },
             { "instructionId": 7, "time": 5, "unit": "minutes" }
         ]
-    }
+    },
+    {
+        "title": "Chili au poulet (Cookeo)",
+        "imgFile": "chili-chicken.png",
+        "taste": "savory",
+        "healthy": true,
+        "portions": 4,
+        "preparationTime": "20 minutes",
+        "cookingTime": "6 minutes",
+        "calories": 1200,
+        "caloriesByPortions": 300,
+        "quantifiedIngredients": [
+            { "id": 1, "ingredientId": 16, "quantity": 1, "unit": "c. à soupe" },
+            { "id": 2, "ingredientId": 22, "quantity": 1, "unit": "pièce" },
+            { "id": 3, "ingredientId": 23, "quantity": 2, "unit": "pièce" },
+            { "id": 4, "ingredientId": 12, "quantity": 1, "unit": "pièce" },
+            { "id": 5, "ingredientId": 13, "quantity": 1, "unit": "pièce" },
+            { "id": 6, "ingredientId": 24, "quantity": 1, "unit": "boîte" },
+            { "id": 7, "ingredientId": 25, "quantity": 1, "unit": "boîte" },
+            { "id": 8, "ingredientId": 11, "quantity": 400, "unit": "g" },
+            { "id": 9, "ingredientId": 21, "quantity": 300, "unit": "ml" },
+            { "id": 10, "ingredientId": 26, "quantity": 1, "unit": "c. à café" },
+            { "id": 11, "ingredientId": 18, "quantity": 1, "unit": "c. à café" },
+            { "id": 12, "ingredientId": 17, "quantity": 0.5, "unit": "c. à café" },
+            { "id": 13, "ingredientId": 9, "quantity": 1, "unit": "selon goût" },
+            { "id": 14, "ingredientId": 27, "quantity": 1, "unit": "selon goût" }
+        ],
+        "instructions": [
+            { "id": 1, "libelle": "Couper les légumes", "quantifiedIngredientIds": [2, 3, 4, 5] },
+            { "id": 2, "libelle": "Rincer les haricots rouges", "quantifiedIngredientIds": [7] },
+            { "id": 3, "libelle": "Faire chauffer l’huile et dorer les oignons", "quantifiedIngredientIds": [1, 2] },
+            { "id": 4, "libelle": "Ajouter et dorer le poulet", "quantifiedIngredientIds": [8] },
+            { "id": 5, "libelle": "Ajouter les légumes et remuer", "quantifiedIngredientIds": [3, 4, 5] },
+            { "id": 6, "libelle": "Ajouter le bouillon de légumes et remuer", "quantifiedIngredientIds": [9] },
+            { "id": 7, "libelle": "Ajouter les haricots rouges et remuer", "quantifiedIngredientIds": [7] },
+            { "id": 8, "libelle": "Ajouter les tomates concassées et remuer", "quantifiedIngredientIds": [6] },
+            { "id": 9, "libelle": "Ajouter les épices et remuer", "quantifiedIngredientIds": [10, 11, 12, 13, 14] },
+            { "id": 10, "libelle": "Cuisson sous pression durant 6 minutes", "quantifiedIngredientIds": [] }
+        ],
+        "timers": [
+            { "instructionId": 10, "time": 6, "unit": "minutes" }
+        ]
+    }    
 ]
